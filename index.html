@@ -21,10 +21,11 @@ body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff}
 .social{background:var(--social)}
 .economic{background:var(--economic)}
 .environment{background:var(--env)}
-.head{display:flex;gap:12px;align-items:flex-start;margin-bottom:14px}
+.head{display:flex;gap:12px;align-items:center;margin-bottom:14px}
 .head-icon{font-size:27px;line-height:1}
+.head-line{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
 .head h2{margin:0;font-size:26px;line-height:1.05}
-.pillar-sub{margin-top:5px;font-size:14px;color:var(--muted);line-height:1.35}
+.pillar-sub{font-size:14px;color:var(--muted);line-height:1.35}
 .cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
 .card,.chart{background:#fff;border:1px solid rgba(11,52,112,.09);border-radius:12px;padding:14px}
 .card{min-height:145px;display:flex;gap:12px}
@@ -80,7 +81,7 @@ body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff}
   <section class="section social">
     <div class="head">
       <div class="head-icon">👥</div>
-      <div><h2>SOCIAL</h2><div class="pillar-sub">People, wellbeing and access to essential services</div></div>
+      <div class="head-line"><h2>SOCIAL</h2><div class="pillar-sub">— People, wellbeing and access to essential services</div></div>
     </div>
     <div class="cards">
       <div class="card"><div class="icon">🏠</div><div><div class="label">Poverty rate</div><div class="value">24.1%</div><div class="sub">Revised national estimate · 2019–20 HIES</div><div class="source">Source: <a target="_blank" rel="noopener" href="https://www.statsfiji.gov.fj/index.php/download/113/hies-2019-20/681/fiji_2019_20_consumption_revision_11-05-222.pdf">Fiji Bureau of Statistics</a></div></div></div>
@@ -107,7 +108,7 @@ body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff}
   <section class="section economic">
     <div class="head">
       <div class="head-icon">📊</div>
-      <div><h2>ECONOMIC</h2><div class="pillar-sub">Economic strength, investment conditions and key sectors</div></div>
+      <div class="head-line"><h2>ECONOMIC</h2><div class="pillar-sub">— Economic strength, investment conditions and key sectors</div></div>
     </div>
     <div class="cards">
       <div class="card"><div class="icon">✈️</div><div><div class="label">Tourism earnings</div><div class="value">FJ$2.814bn</div><div class="sub">International visitor earnings · 2025</div><div class="source">Source: <a target="_blank" rel="noopener" href="https://www.statsfiji.gov.fj/fijis-earnings-from-tourism-annual-2025/">Fiji Bureau of Statistics</a></div></div></div>
@@ -130,7 +131,7 @@ body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff}
   <section class="section environment">
     <div class="head">
       <div class="head-icon">🌿</div>
-      <div><h2>ENVIRONMENTAL</h2><div class="pillar-sub">Climate exposure, natural resources and environmental resilience</div></div>
+      <div class="head-line"><h2>ENVIRONMENTAL</h2><div class="pillar-sub">— Climate exposure, natural resources and environmental resilience</div></div>
     </div>
     <div class="cards">
       <div class="card"><div class="icon">🌊</div><div><div class="label">Population within 1 km of coast</div><div class="value">27%</div><div class="sub">Exposure of communities to coastal hazards</div><div class="source">Source: <a target="_blank" rel="noopener" href="https://fijiclimatechangeportal.gov.fj/">Fiji Climate Change Portal</a></div></div></div>
