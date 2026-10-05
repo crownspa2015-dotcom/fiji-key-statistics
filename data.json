@@ -1,118 +1,120 @@
 {
   "meta": {
     "title": "Fiji — Key Statistics",
-    "subtitle": "A service- and tourism-led Pacific economy with broad connectivity and natural assets, but persistent poverty, high public debt, import dependence and major exposure to climate hazards.",
+    "subtitle": "A concise view of Fiji's social conditions, investment environment and environmental resilience.",
     "lastUpdated": "5 October 2026",
     "indicatorThemes": 15
   },
   "social": {
     "title": "SOCIAL",
-    "strap": "Fiji combines broad household connectivity and basic-service access with persistent poverty, water-supply reliability pressures and a heavy non-communicable disease burden.",
+    "strap": "People, wellbeing and access to essential services",
     "cards": [
-      {
-        "label": "Population",
-        "value": "902,623",
-        "subtitle": "2026 projection",
-        "icon": "👥",
-        "source": "Fiji Bureau of Statistics — Fiji Statistics at a Glance",
-        "sourceUrl": "https://www.statsfiji.gov.fj/"
-      },
       {
         "label": "Poverty rate",
         "value": "24.1%",
-        "subtitle": "Revised 2019–20 HIES estimate",
+        "subtitle": "Revised national estimate · 2019–20 HIES",
         "icon": "🏠",
         "source": "Fiji Bureau of Statistics — HIES consumption revision",
         "sourceUrl": "https://www.statsfiji.gov.fj/index.php/download/113/hies-2019-20/681/fiji_2019_20_consumption_revision_11-05-222.pdf"
       },
       {
-        "label": "Households with internet access",
+        "label": "Household internet access",
         "value": "89%",
-        "subtitle": "MICS Plus Wave 1 · 2024",
+        "subtitle": "Households with internet access at home · 2024",
         "icon": "📶",
         "source": "Fiji Bureau of Statistics / UNICEF — MICS Plus 2024–2025",
         "sourceUrl": "https://www.statsfiji.gov.fj/download/413/mics-2024-25/4374/fiji-micsplus-2024-25-wave1_snapshot_20250120.pdf"
       },
       {
-        "label": "Insufficient drinking water",
-        "value": "31%",
-        "subtitle": "Household population without sufficient drinking water when needed in previous 7 days · Wave 1",
-        "icon": "🚰",
-        "source": "Fiji Bureau of Statistics / UNICEF — MICS Plus 2024–2025",
-        "sourceUrl": "https://www.statsfiji.gov.fj/download/413/mics-2024-25/4374/fiji-micsplus-2024-25-wave1_snapshot_20250120.pdf"
+        "label": "Unemployment rate",
+        "value": "5.7%",
+        "subtitle": "Latest national labour-force estimate · 2023–24",
+        "icon": "💼",
+        "source": "Fiji Bureau of Statistics — 2023–24 Employment and Unemployment Survey",
+        "sourceUrl": "https://www.statsfiji.gov.fj/2023-24-fiji-employment-and-unemployment-survey-main-report/"
       },
       {
-        "label": "Deaths caused by NCDs",
-        "value": "~80%",
-        "subtitle": "Around four in five deaths",
-        "icon": "❤️",
-        "source": "Fiji Ministry of Health and Medical Services — NCDs in Fiji",
-        "sourceUrl": "https://www.health.gov.fj/ncds/ncds-in-fiji/"
+        "label": "Life expectancy",
+        "value": "68 years",
+        "subtitle": "Average life expectancy at birth",
+        "icon": "🫶",
+        "source": "Fiji Ministry of Health and Medical Services — Strategic Plan Evaluation Report 2025",
+        "sourceUrl": "https://www.health.gov.fj/wp-content/uploads/2025/08/MOHMS_Strategic_Plan_Evaluation_Report_2025.pdf"
+      }
+    ],
+    "charts": [
+      {
+        "type": "donut",
+        "title": "Deaths from non-communicable diseases",
+        "subtitle": "Around four in five deaths are from NCDs",
+        "segments": [
+          {"label": "NCDs", "value": 80, "display": "~80%"},
+          {"label": "Other causes", "value": 20, "display": "~20%"}
+        ],
+        "source": "Fiji Ministry of Health and Medical Services — Fiji 2025 STEPS Survey",
+        "sourceUrl": "https://www.health.gov.fj/wp-content/uploads/2026/02/Fiji-2025-STEPS-Survey-%E2%80%93-Country-Report.pdf"
       }
     ]
   },
   "economic": {
     "title": "ECONOMIC",
-    "strap": "Fiji's economy is led by services and tourism. Strong service exports help offset a large merchandise trade deficit, while elevated government debt limits fiscal room to absorb future shocks.",
+    "strap": "Economic strength, investment conditions and key sectors",
     "cards": [
-      {
-        "label": "Real GDP growth",
-        "value": "2.5%",
-        "subtitle": "2025",
-        "icon": "📈",
-        "source": "Fiji Bureau of Statistics — GDP 2025",
-        "sourceUrl": "https://www.statsfiji.gov.fj/fijis-gross-domestic-product-gdp-2025/"
-      },
       {
         "label": "Tourism earnings",
         "value": "FJ$2.814bn",
-        "subtitle": "2025 · up 10.9% from 2024",
+        "subtitle": "International visitor earnings · 2025",
         "icon": "✈️",
         "source": "Fiji Bureau of Statistics — Earnings from Tourism 2025",
         "sourceUrl": "https://www.statsfiji.gov.fj/fijis-earnings-from-tourism-annual-2025/"
       },
       {
         "label": "Government debt",
-        "value": "78.9%",
-        "subtitle": "of GDP · FY2024–25",
+        "value": "77.1%",
+        "subtitle": "Share of GDP · July 2025",
         "icon": "💳",
-        "source": "Ministry of Finance — FY2026–2027 Fiscal Strategy",
-        "sourceUrl": "https://www.finance.gov.fj/fy2026-2027-fiscal-strategy/"
+        "source": "Ministry of Finance — 2024–2025 Annual Debt Report",
+        "sourceUrl": "https://www.finance.gov.fj/wp-content/uploads/2025/11/2024-2025-Annual-Debt-Report.pdf"
+      },
+      {
+        "label": "Foreign reserves",
+        "value": "FJ$4.09bn",
+        "subtitle": "Around 5.5 months of retained import cover · Sep 2026",
+        "icon": "🏦",
+        "source": "Reserve Bank of Fiji — September 2026",
+        "sourceUrl": "https://www.rbf.gov.fj/press-release-no-28-rbf-maintains-the-overnight-policy-rate/"
+      },
+      {
+        "label": "ICT sector contribution to GDP",
+        "value": "4.1%",
+        "subtitle": "Scale of Fiji's information and communications economy · 2022",
+        "icon": "💻",
+        "source": "Government of Fiji — National Development Plan 2025–2029",
+        "sourceUrl": "https://www.finance.gov.fj/wp-content/uploads/2024/09/NPDF_final.pdf"
       }
     ],
     "charts": [
       {
         "type": "bar",
-        "title": "Merchandise trade imbalance",
-        "subtitle": "2025 · FJ$ billion",
+        "title": "Merchandise trade",
+        "subtitle": "Goods imports substantially exceed exports · 2025",
         "items": [
           {"label": "Imports", "value": 7.3835, "display": "FJ$7.384bn"},
           {"label": "Exports", "value": 2.5340, "display": "FJ$2.534bn"}
         ],
         "source": "Fiji Bureau of Statistics — International Trade Statistics",
         "sourceUrl": "https://www.statsfiji.gov.fj/statistics/economic-statistics/international-trade-statistics/"
-      },
-      {
-        "type": "bar",
-        "title": "Services trade",
-        "subtitle": "2025 · FJ$ billion",
-        "items": [
-          {"label": "Exports", "value": 5.1288, "display": "FJ$5.129bn"},
-          {"label": "Imports", "value": 2.3222, "display": "FJ$2.322bn"}
-        ],
-        "source": "Fiji Bureau of Statistics — International Trade in Services",
-        "sourceUrl": "https://www.statsfiji.gov.fj/statistics/economic-statistics/international-trade-statistics/"
       }
     ]
   },
   "environment": {
     "title": "ENVIRONMENTAL",
-    "strap": "Fiji has substantial forest and renewable-energy assets, but coastal settlement and past cyclone losses show how directly climate hazards affect communities, infrastructure and the economy.",
+    "strap": "Climate exposure, natural resources and environmental resilience",
     "cards": [
       {
         "label": "Population within 1 km of coast",
         "value": "27%",
-        "subtitle": "National coastal exposure",
+        "subtitle": "Exposure of communities to coastal hazards",
         "icon": "🌊",
         "source": "Fiji Climate Change Portal",
         "sourceUrl": "https://fijiclimatechangeportal.gov.fj/"
@@ -126,19 +128,19 @@
         "sourceUrl": "https://fijiclimatechangeportal.gov.fj/"
       },
       {
-        "label": "Climate-vulnerable communities",
-        "value": "6",
-        "subtitle": "Communities identified in Fiji's climate relocation context",
-        "icon": "🏘️",
-        "source": "Fiji Climate Change Portal",
-        "sourceUrl": "https://fijiclimatechangeportal.gov.fj/"
+        "label": "Tropical Cyclone Winston",
+        "value": "FJ$2.85bn",
+        "subtitle": "Total economic and environmental effects · 2016",
+        "icon": "🌀",
+        "source": "Government-led Fiji Post-Disaster Needs Assessment",
+        "sourceUrl": "https://documents1.worldbank.org/curated/en/975781584942869315/pdf/Fiji-Post-Disaster-Needs-Assessment.pdf"
       }
     ],
     "charts": [
       {
         "type": "donut",
         "title": "Renewable electricity",
-        "subtitle": "Current electricity generation share",
+        "subtitle": "Share of electricity supplied from renewable sources",
         "segments": [
           {"label": "Renewable", "value": 53, "display": "53%"},
           {"label": "Other", "value": 47, "display": "47%"}
@@ -147,14 +149,15 @@
         "sourceUrl": "https://fijiclimatechangeportal.gov.fj/"
       },
       {
-        "type": "stat",
-        "title": "Tropical Cyclone Winston",
-        "subtitle": "2016 · total effects including environmental losses",
-        "value": "FJ$2.85bn",
-        "note": "The Post-Disaster Needs Assessment estimated FJ$2.8525 billion in total effects when environmental damage and ecosystem-service losses are included.",
-        "icon": "🌀",
-        "source": "Government-led Fiji Post-Disaster Needs Assessment",
-        "sourceUrl": "https://documents1.worldbank.org/curated/en/975781584942869315/pdf/Fiji-Post-Disaster-Needs-Assessment.pdf"
+        "type": "bar",
+        "title": "Water lost in distribution",
+        "subtitle": "Losses from WAF surface-water supply during distribution · 2025",
+        "items": [
+          {"label": "Lost", "value": 49.3, "display": "49.3%"},
+          {"label": "Remaining", "value": 50.7, "display": "50.7%"}
+        ],
+        "source": "Fiji Bureau of Statistics — Experimental Environmental Account for Water 2025",
+        "sourceUrl": "https://www.statsfiji.gov.fj/fijis-experimental-environmental-account-for-water-2025/"
       }
     ]
   }
