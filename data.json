@@ -48,8 +48,16 @@
         "title": "Deaths from non-communicable diseases",
         "subtitle": "Around four in five deaths are from NCDs",
         "segments": [
-          {"label": "NCDs", "value": 80, "display": "~80%"},
-          {"label": "Other causes", "value": 20, "display": "~20%"}
+          {
+            "label": "NCDs",
+            "value": 80,
+            "display": "~80%"
+          },
+          {
+            "label": "Other causes",
+            "value": 20,
+            "display": "~20%"
+          }
         ],
         "source": "Fiji Ministry of Health and Medical Services — Fiji 2025 STEPS Survey",
         "sourceUrl": "https://www.health.gov.fj/wp-content/uploads/2026/02/Fiji-2025-STEPS-Survey-%E2%80%93-Country-Report.pdf"
@@ -95,12 +103,40 @@
     ],
     "charts": [
       {
-        "type": "bar",
-        "title": "Merchandise trade",
-        "subtitle": "Goods imports substantially exceed exports · 2025",
-        "items": [
-          {"label": "Imports", "value": 7.3835, "display": "FJ$7.384bn"},
-          {"label": "Exports", "value": 2.5340, "display": "FJ$2.534bn"}
+        "type": "combined-bar",
+        "title": "External trade structure",
+        "subtitle": "Goods show a large import gap, while services generate a strong export surplus · 2025",
+        "groups": [
+          {
+            "label": "Merchandise trade",
+            "items": [
+              {
+                "label": "Imports",
+                "value": 7.3835,
+                "display": "FJ$7.384bn"
+              },
+              {
+                "label": "Exports",
+                "value": 2.534,
+                "display": "FJ$2.534bn"
+              }
+            ]
+          },
+          {
+            "label": "Services trade",
+            "items": [
+              {
+                "label": "Exports",
+                "value": 5.1288,
+                "display": "FJ$5.129bn"
+              },
+              {
+                "label": "Imports",
+                "value": 2.3222,
+                "display": "FJ$2.322bn"
+              }
+            ]
+          }
         ],
         "source": "Fiji Bureau of Statistics — International Trade Statistics",
         "sourceUrl": "https://www.statsfiji.gov.fj/statistics/economic-statistics/international-trade-statistics/"
@@ -142,8 +178,16 @@
         "title": "Renewable electricity",
         "subtitle": "Share of electricity supplied from renewable sources",
         "segments": [
-          {"label": "Renewable", "value": 53, "display": "53%"},
-          {"label": "Other", "value": 47, "display": "47%"}
+          {
+            "label": "Renewable",
+            "value": 53,
+            "display": "53%"
+          },
+          {
+            "label": "Other",
+            "value": 47,
+            "display": "47%"
+          }
         ],
         "source": "Fiji Climate Change Portal",
         "sourceUrl": "https://fijiclimatechangeportal.gov.fj/"
@@ -153,8 +197,16 @@
         "title": "Water lost in distribution",
         "subtitle": "Losses from WAF surface-water supply during distribution · 2025",
         "items": [
-          {"label": "Lost", "value": 49.3, "display": "49.3%"},
-          {"label": "Remaining", "value": 50.7, "display": "50.7%"}
+          {
+            "label": "Lost",
+            "value": 49.3,
+            "display": "49.3%"
+          },
+          {
+            "label": "Remaining",
+            "value": 50.7,
+            "display": "50.7%"
+          }
         ],
         "source": "Fiji Bureau of Statistics — Experimental Environmental Account for Water 2025",
         "sourceUrl": "https://www.statsfiji.gov.fj/fijis-experimental-environmental-account-for-water-2025/"
